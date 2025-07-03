@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+include instructions.md
+include example.py
+recursive-include src/pylogger *.py
+recursive-include tests *.py
+exclude logs/*
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store
