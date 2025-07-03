@@ -1,0 +1,32 @@
+2025-07-03 16:23:58 - app - INFO - logger.py:126 - Application started with default configuration
+2025-07-03 16:23:58 - app - DEBUG - logger.py:117 - This is a debug message
+2025-07-03 16:23:58 - app - WARNING - logger.py:135 - This is a warning
+2025-07-03 16:23:58 - app - ERROR - logger.py:144 - This is an error
+2025-07-03 16:23:58 - env_app - INFO - logger.py:126 - Environment-configured logger initialized
+2025-07-03 16:23:58 - app - ERROR - logger.py:162 - Division by zero occurred
+Traceback (most recent call last):
+  File "/workspaces/pylogger/example.py", line 56, in main
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-07-03 16:23:58 - app - DEBUG - logger.py:172 - This is a DEBUG message
+2025-07-03 16:23:58 - app - INFO - logger.py:172 - This is a INFO message
+2025-07-03 16:23:58 - app - WARNING - logger.py:172 - This is a WARNING message
+2025-07-03 16:23:58 - app - ERROR - logger.py:172 - This is a ERROR message
+2025-07-03 16:23:58 - app - CRITICAL - logger.py:172 - This is a CRITICAL message
+2025-07-03 16:32:00 - app - INFO - logger.py:126 - Application started with default configuration
+2025-07-03 16:32:00 - app - DEBUG - logger.py:117 - This is a debug message
+2025-07-03 16:32:00 - app - WARNING - logger.py:135 - This is a warning
+2025-07-03 16:32:00 - app - ERROR - logger.py:144 - This is an error
+2025-07-03 16:32:00 - env_app - INFO - logger.py:126 - Environment-configured logger initialized
+2025-07-03 16:32:00 - app - ERROR - logger.py:162 - Division by zero occurred
+Traceback (most recent call last):
+  File "/workspaces/pylogger/example.py", line 59, in main
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-07-03 16:32:00 - app - DEBUG - logger.py:172 - This is a DEBUG message
+2025-07-03 16:32:00 - app - INFO - logger.py:172 - This is a INFO message
+2025-07-03 16:32:00 - app - WARNING - logger.py:172 - This is a WARNING message
+2025-07-03 16:32:00 - app - ERROR - logger.py:172 - This is a ERROR message
+2025-07-03 16:32:00 - app - CRITICAL - logger.py:172 - This is a CRITICAL message

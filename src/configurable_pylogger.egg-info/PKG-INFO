@@ -1,3 +1,38 @@
+Metadata-Version: 2.4
+Name: configurable-pylogger
+Version: 1.0.0
+Summary: A modern, configurable Python logger with rotation, flexible output options, and container support
+Author-email: PyLogger Team <pylogger@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/example/pylogger
+Project-URL: Repository, https://github.com/example/pylogger
+Project-URL: Issues, https://github.com/example/pylogger/issues
+Keywords: logging,logger,rotation,json,container,configurable
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0.0; extra == "test"
+Dynamic: license-file
+
 # PyLogger - Configurable Python Logger
 
 A modern, configurable Python logger with rotation, flexible output options, and container support. Built with Python 3.12+ features and following SOLID principles.
